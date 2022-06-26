@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-25T01:55:40Z" name="SmokeTestSuite" finished-at="2022-06-25T01:55:52Z" duration-ms="11581">
+    <groups>
+    </groups>
+    <test started-at="2022-06-25T01:55:40Z" name="LoginTest" finished-at="2022-06-25T01:55:52Z" duration-ms="11581">
+      <class name="com.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:38Z" name="setUp" finished-at="2022-06-25T07:25:40Z" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="clearSession()[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:40Z" name="clearSession" finished-at="2022-06-25T07:25:40Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSession -->
+        <test-method signature="verifyUserCanLogin(java.lang.String)[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:40Z" name="verifyUserCanLogin" finished-at="2022-06-25T07:25:48Z" duration-ms="7614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogin -->
+        <test-method is-config="true" signature="clearSession()[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:48Z" name="clearSession" finished-at="2022-06-25T07:25:48Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSession -->
+        <test-method signature="verifyUserCanLogout(java.lang.String)[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:48Z" name="verifyUserCanLogout" finished-at="2022-06-25T07:25:52Z" duration-ms="3911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogout -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.tests.LoginTest@7d3d101b]" started-at="2022-06-25T07:25:52Z" name="cleanUp" finished-at="2022-06-25T07:25:53Z" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- SmokeTestSuite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" verbose="1">
+	<parameter name="url"
+		value="https://opensource-demo.orangehrmlive.com/" />
+		
+	<test name="LoginTest">
+		<classes>
+			<class name="com.automation.tests.LoginTest" />
+		</classes>
+	</test>
+
+</suite>
